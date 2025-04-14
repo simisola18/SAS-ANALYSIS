@@ -69,6 +69,18 @@ For the regression analysis, It was observed that the p-value was <.0001 which i
 ![image](https://github.com/user-attachments/assets/968a4c95-7fcb-4372-ae39-0252c165474b)
 ![image](https://github.com/user-attachments/assets/b2e8f58d-4c57-46b8-99d6-79ba3f5dddab)
 ![image](https://github.com/user-attachments/assets/d556628d-4c52-4f7a-b157-22d85b2ef295)
+# CONCLUSION
+In conclusion, it can be said that this analysis
+•	The more students they had the more the number of guided learning hours especially in year 3 for both schools and the Northwest regions of both schools had the largest number of learning hours. The mean for the size category showed that the institutions with a large size had the highest number of observations.
+•	The highest Glh value was 2578 for a learner while the lowest was 0. The sixth form college had the largest number of learning hours among the two colleges.
+•	The effect of the size of a region and the number of learners at an institution based on guided learning hours per student is statistically significant.
+•	In all 3 years, the sum total of Glh(guided learning hours) per student is unaffected by the variable region or institution size.
+# REFERENCES
+Step-by-Step Programming with Base SAS® 9.4, Second Edition
+https://stats.oarc.ucla.edu/sas/output/proc-univariate/
+https://stat-methods.com/home/one-way-anova-sas/
+https://documentation.sas.com/
+support.sas.com
 
 
 
