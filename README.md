@@ -81,10 +81,11 @@ https://stats.oarc.ucla.edu/sas/output/proc-univariate/
 https://stat-methods.com/home/one-way-anova-sas/
 https://documentation.sas.com/
 support.sas.com
-
-
-
-
+# APPENDIX
+![image](https://github.com/user-attachments/assets/ad34e073-0f67-42bf-91de-3740843e92b5)
+A positively skewed graph for the distribution of hours per learners in year 1
+![image](https://github.com/user-attachments/assets/147b377a-7851-45dc-ac35-8d85505dc810)
+A Q-Q plot showing light tails that the Glhourperlearner distribution is not normally distributed.
 
 
 
