@@ -1,0 +1,53 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: Total_data
+Observations:  9
+Variables:     13
+
+Variables (in alphabetical order):
+
+  #  Variable                    Type    Len  Format  Label
+---  --------------------------  ----  -----  ------  -----
+  1  GLHHours_per_Learner_year1   Num      8          
+  2  GLHHours_per_Learner_year2   Num      8          
+  3  GLHHours_per_Learner_year3   Num      8          
+  4  institution_type            Char     20          
+  5  learnersYear1                Num      8          
+  6  learnersYear2                Num      8          
+  7  learnersYear3                Num      8          
+  8  region                      Char     25          
+  9  TotalGlh                     Num      8          
+ 10  TotalGLHperLearner           Num      8          
+ 11  totalGLHYear1                Num      8          
+ 12  totalGLHYear2                Num      8          
+ 13  totalGLHYear3                Num      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs    institution_type           region  totalGLHYear1  learnersYear1  totalGLHYear2  learnersYear2  totalGLHYear3  learnersYear3  GLHHours_per_Learner_year1  GLHHours_per_Learner_year2  GLHHours_per_Learner_year3  TotalGlh  TotalGLHperLearner   Size
+-----  ------------------  ---------------  -------------  -------------  -------------  -------------  -------------  -------------  --------------------------  --------------------------  --------------------------  --------  ------------------  -----
+    1  FE College          East Midlands          1299123           9919        1294331           7400        1107795           6630              130.9731827805              174.9095945946              167.0882352941   3701249      472.9710126692  Large
+    2  FE College          East Midlands          3208343          20923        3088582          12716        2743416          11715              153.3404865459              242.8894306386              234.1797695262   9040341      630.4096867107  Large
+    3  FE College          East Midlands          4402042          20514        4243906          17834        3739237          17359              214.5872087355              237.9671414153              215.4062445993  12385185      667.9605947501  Large
+    4  FE College          East Midlands           553505           5748         527416           3519              .              .               96.2952331246              149.8766695084                           .   1080921                   .  Mediu
+    5  FE College          East of England        2242458          13880        2170141          12976        2056575          13384              161.5603746398              167.2426787916              153.6592199641   6469174      482.4622733955  Large
+    6  Sixth Form College  East Midlands          1003088           1375        1115427           1513        1248720           1731              729.5185454545              737.2286847323              721.3864818024   3367235     2188.1337119893  Large
+    7  Sixth Form College  East of England         772705           1722         819897           1452         900882           1564              448.7253193961              564.6673553719              576.0115089514   2493484     1589.4041837194  Large
+    8  Sixth Form College  Greater London         1027776           1514        1020719           1485         856334           1299              678.8480845443              687.3528619529              659.2255581216   2904829     2025.4265046187  Large
+    9  Sixth Form College  Greater London         1700716           2097        1654886           2052        1578071           2095              811.0233667144              806.4746588694              753.2558472554   4933673     2370.7538728391  Large
+
+  Obs    institution_type           region  totalGLHYear1  learnersYear1  totalGLHYear2  learnersYear2  totalGLHYear3  learnersYear3  GLHHours_per_Learner_year1  GLHHours_per_Learner_year2  GLHHours_per_Learner_year3  TotalGlh  TotalGLHperLearner   Size
+-----  ------------------  ---------------  -------------  -------------  -------------  -------------  -------------  -------------  --------------------------  --------------------------  --------------------------  --------  ------------------  -----
+    1  FE College          East Midlands          1299123           9919        1294331           7400        1107795           6630              130.9731827805              174.9095945946              167.0882352941   3701249      472.9710126692  Large
+    2  FE College          East Midlands          3208343          20923        3088582          12716        2743416          11715              153.3404865459              242.8894306386              234.1797695262   9040341      630.4096867107  Large
+    3  FE College          East Midlands          4402042          20514        4243906          17834        3739237          17359              214.5872087355              237.9671414153              215.4062445993  12385185      667.9605947501  Large
+    4  FE College          East Midlands           553505           5748         527416           3519              0              0               96.2952331246              149.8766695084                           0   1080921                   0  Mediu
+    5  FE College          East of England        2242458          13880        2170141          12976        2056575          13384              161.5603746398              167.2426787916              153.6592199641   6469174      482.4622733955  Large
+    6  Sixth Form College  East Midlands          1003088           1375        1115427           1513        1248720           1731              729.5185454545              737.2286847323              721.3864818024   3367235     2188.1337119893  Large
+    7  Sixth Form College  East of England         772705           1722         819897           1452         900882           1564              448.7253193961              564.6673553719              576.0115089514   2493484     1589.4041837194  Large
+    8  Sixth Form College  Greater London         1027776           1514        1020719           1485         856334           1299              678.8480845443              687.3528619529              659.2255581216   2904829     2025.4265046187  Large
+    9  Sixth Form College  Greater London         1700716           2097        1654886           2052        1578071           2095              811.0233667144              806.4746588694              753.2558472554   4933673     2370.7538728391  Large
+

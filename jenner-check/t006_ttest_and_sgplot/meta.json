@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_ttest_and_sgplot",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 397-405 (PROC TTEST comparing GLH-per-learner between FE and Sixth Form institution_type, the only 2-level variable in the source per the author's own comment) plus lines 447-451 (one PROC SGPLOT vbox of TotalGLHperLearner by Size), unmodified. Total_data_all rebuilt inline from 6 real rows (3 FE College, 3 Sixth Form College sampled from IMAT5168-FE.csv / IMAT5168-6FORM.csv) with the same Size-banding logic as the source, so institution_type has exactly two real levels for TTEST."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_means_and_anova",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 237-285 of the source: PROC MEANS (class region) descriptive stats and a one-way PROC ANOVA of region's effect on GLH-per-learner across all three years, with LSD mean comparisons, unmodified. Total_data_all is rebuilt inline from 12 real FE-college rows (4 each from East Midlands, East of England, Greater London, sampled from IMAT5168-FE.csv) so ANOVA has enough per-group observations to produce a real F-test."
+}

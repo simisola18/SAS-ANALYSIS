@@ -1,0 +1,56 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA FUREDUColleges
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote FUREDUColleges (5 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA Form_College1
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote Form_College1 (4 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA Total_data
+
+
+NOTE: Read 5 rows from FUREDUColleges.
+NOTE: Read 4 rows from Form_College1.
+NOTE: Wrote Total_data (9 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=Total_data
+
+NOTE: PROC CONTENTS completed: 9 observations, 13 variables
+NOTE: DATA Total_data
+
+
+NOTE: Read 9 rows from Total_data.
+NOTE: Wrote Total_data (9 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=Total_data
+
+NOTE: PROC PRINT completed: 9 observations printed, 14 variables
+NOTE: PROC STDIZE data=Total_data
+
+NOTE: PROC STDIZE: Wrote 9 rows to no_missing_Total_data
+NOTE: DATA Total_data_all
+
+
+NOTE: Read 9 rows from work.no_missing_Total_data.
+NOTE: Wrote Total_data_all (9 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=Total_data_all
+
+NOTE: PROC PRINT completed: 9 observations printed, 14 variables

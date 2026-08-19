@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_merge_and_size_bands",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 166-202 of the source: stacks the FE and Sixth-Form college datasets with SET, derives the institution Size band from TotalGlh (Large/Large-Medium/Medium/small-Medium/Small), runs PROC CONTENTS, and replaces missing numerics with 0 via PROC STDIZE(reponly missing=0), unmodified. The two feeder datasets are rebuilt inline from small real-row samples of IMAT5168-FE.csv and IMAT5168-6FORM.csv (one row keeps a genuine missing Year-3 pair so the STDIZE step has real work to do, matching what the original data contains)."
+}
