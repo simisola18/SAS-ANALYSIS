@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_and_glh_calc",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 1-83 of the source: reads the FE-college guided-learning-hours file via a fixed LENGTH/INPUT/LABEL block, computes GLH-per-learner for years 1-3, sorts and prints. Original used LIBNAME/FILENAME against /home/u60858563/ASSESSMENT/IMAT5168-FE.csv on SAS Studio; adapted to read the same 15 real rows (sampled verbatim from IMAT5168-FE.csv, including one row with genuine missing Year-3 values) via inline DATALINES with DLM=',' DSD MISSOVER matching the original INFILE options."
+}

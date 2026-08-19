@@ -1,0 +1,12 @@
+{
+  "_captured_at": "2026-08-19T07:26:00Z",
+  "_captured_run_id": "r_f7e8bb47f4d644a7923148c7fff84d06",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Total_data_all (12 rows, 13 columns).",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

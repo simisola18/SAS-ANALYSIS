@@ -1,0 +1,76 @@
+                              The TTEST Procedure                              
+                     Variable:  GLHHours_per_Learner_year1                     
+
+institution_type           N       Mean   Std Dev   Std Err   Minimum   Maximum
+------------------  --------  ---------  --------  --------  --------  --------
+FE College                 3   170.0948   49.6655   28.6744  130.9732  225.9706
+Sixth Form College         3   663.0891  190.0648  109.7340  448.7253  811.0234
+Diff (1-2)                    -492.9943                                        
+
+institution_type    Lower CL Mean       Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+------------------  -------------  ---------  -------------  ----------------  --------  ----------------
+FE College                46.7189   170.0948       293.4706           25.8587   49.6655          312.1342
+Sixth Form College       190.9420   663.0891      1135.2362           98.9588  190.0648         1194.5068
+Diff (1-2)              -807.8946  -492.9943      -178.0940           83.2248  138.9088          399.1620
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal             4     -4.35    0.0122
+Satterthwaite  Unequal         2.3     -4.35    0.0388
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F     14.65    0.1278
+                              The TTEST Procedure                              
+                     Variable:  GLHHours_per_Learner_year2                     
+
+institution_type           N       Mean   Std Dev   Std Err   Minimum   Maximum
+------------------  --------  ---------  --------  --------  --------  --------
+FE College                 3   203.9073   35.0725   20.2491  174.9096  242.8894
+Sixth Form College         3   702.7902  124.5279   71.8962  564.6674  806.4747
+Diff (1-2)                    -498.8829                                        
+
+institution_type    Lower CL Mean       Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+------------------  -------------  ---------  -------------  ----------------  --------  ----------------
+FE College               116.7824   203.9073       291.0322           18.2608   35.0725          220.4213
+Sixth Form College       393.4458   702.7902      1012.1347           64.8365  124.5279          782.6248
+Diff (1-2)              -706.2648  -498.8829      -291.5010           54.8089   91.4803          262.8736
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal             4     -6.68    0.0026
+Satterthwaite  Unequal         2.3     -6.68    0.0147
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F     12.61    0.1470
+                              The TTEST Procedure                              
+                     Variable:  GLHHours_per_Learner_year3                     
+
+institution_type           N       Mean   Std Dev   Std Err   Minimum   Maximum
+------------------  --------  ---------  --------  --------  --------  --------
+FE College                 3   195.6685   34.6307   19.9941  167.0882  234.1798
+Sixth Form College         3   683.5513   94.4855   54.5512  576.0115  753.2558
+Diff (1-2)                    -487.8828                                        
+
+institution_type    Lower CL Mean       Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+------------------  -------------  ---------  -------------  ----------------  --------  ----------------
+FE College               109.6410   195.6685       281.6960           18.0308   34.6307          217.6450
+Sixth Form College       448.8362   683.5513       918.2664           49.1947   94.4855          593.8165
+Diff (1-2)              -649.1940  -487.8828      -326.5715           42.6329   71.1576          204.4753
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal             4     -8.40    0.0011
+Satterthwaite  Unequal         2.5     -8.40    0.0066
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      7.44    0.2369
+

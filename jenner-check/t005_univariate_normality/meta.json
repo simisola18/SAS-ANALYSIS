@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_univariate_normality",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 288-297 of the source: PROC UNIVARIATE normal, by region, with qqplot/normal, ppplot/normal, histogram/normal and an inset of summary stats - unmodified options. VAR list narrowed from the source's seven analysis variables to one (GLHHours_per_Learner_year1) purely to keep the bundle's ODS-plot volume within the self-check request budget; the same 12-row real FE-college sample from t004 (IMAT5168-FE.csv) feeds it, producing genuine Shapiro-Wilk/Kolmogorov-Smirnov/Anderson-Darling/Cramer-von Mises normality tests per region."
+}

@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-19T07:30:00Z",
+  "_captured_run_id": "r_05d28c2d32544467bae5682b5fd56dbc",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Total_data_all (6 rows, 14 columns).",
+    "NOTE: PROC TTEST data=Total_data_all",
+    "NOTE: PROC TTEST statement used.",
+    "NOTE: PROC SGPLOT data=Total_data_all"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

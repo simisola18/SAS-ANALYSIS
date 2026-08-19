@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-19T07:08:12Z",
+  "_captured_run_id": "r_f3c23622663546d697bdd1a19ba4704c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: DATA FUREDU_College",
+    "NOTE: Read 15 rows from DATALINES.",
+    "NOTE: Wrote FUREDUColleges (15 rows, 14 columns).",
+    "NOTE: PROC PRINT completed: 15 observations printed, 14 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

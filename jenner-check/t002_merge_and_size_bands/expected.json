@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-19T07:12:00Z",
+  "_captured_run_id": "r_ccb92b856a43443ca8d4d1f19436ac8e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Total_data (9 rows, 13 columns).",
+    "NOTE: PROC CONTENTS completed: 9 observations, 13 variables",
+    "NOTE: PROC STDIZE: Wrote 9 rows to no_missing_Total_data",
+    "NOTE: Wrote Total_data_all (9 rows, 14 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

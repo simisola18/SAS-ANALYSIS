@@ -1,0 +1,34 @@
+
+  Obs  TOTALGLHPERLEARNER    INSTITUTION_TYPE                        YEAR       TOTALGLH1
+-----  ------------------  ------------------  --------------------------  --------------
+    1      472.9710126692  FE College          GLHHours_per_Learner_year1  130.9731827805
+    2      472.9710126692  FE College          GLHHours_per_Learner_year2  174.9095945946
+    3      472.9710126692  FE College          GLHHours_per_Learner_year3  167.0882352941
+    4      630.4096867107  FE College          GLHHours_per_Learner_year1  153.3404865459
+    5      630.4096867107  FE College          GLHHours_per_Learner_year2  242.8894306386
+    6      630.4096867107  FE College          GLHHours_per_Learner_year3  234.1797695262
+    7      482.4622733955  FE College          GLHHours_per_Learner_year1  161.5603746398
+    8      482.4622733955  FE College          GLHHours_per_Learner_year2  167.2426787916
+    9      482.4622733955  FE College          GLHHours_per_Learner_year3  153.6592199641
+   10     2188.1337119893  Sixth Form College  GLHHours_per_Learner_year1  729.5185454545
+   11     2188.1337119893  Sixth Form College  GLHHours_per_Learner_year2  737.2286847323
+   12     2188.1337119893  Sixth Form College  GLHHours_per_Learner_year3  721.3864818024
+   13     2025.4265046187  Sixth Form College  GLHHours_per_Learner_year1  678.8480845443
+   14     2025.4265046187  Sixth Form College  GLHHours_per_Learner_year2  687.3528619529
+   15     2025.4265046187  Sixth Form College  GLHHours_per_Learner_year3  659.2255581216
+
+
+               The FCMP Procedure
+
+  Output Library: work.project.lib
+  User-defined Function: glhyeartrfm
+
+
+  Obs    institution_type           region  totalGLHYear1  learnersYear1  totalGLHYear2  learnersYear2  totalGLHYear3  learnersYear3  GLHHours_per_Learner_year1  GLHHours_per_Learner_year2  GLHHours_per_Learner_year3  TotalGlh  TotalGLHperLearner  Year 1 Trf Value  Year 2 Trf Value  Year 3 Trf Value
+-----  ------------------  ---------------  -------------  -------------  -------------  -------------  -------------  -------------  --------------------------  --------------------------  --------------------------  --------  ------------------  ----------------  ----------------  ----------------
+    1  FE College          East Midlands          1299123           9919        1294331           7400        1107795           6630              130.9731827805              174.9095945946              167.0882352941   3701249      472.9710126692     14.0771999794     14.0735045173     13.9178821111
+    2  FE College          East Midlands          3208343          20923        3088582          12716        2743416          11715              153.3404865459              242.8894306386              234.1797695262   9040341      630.4096867107     14.9812651625     14.9432226439     14.8247144172
+    3  FE College          East of England        2242458          13880        2170141          12976        2056575          13384              161.5603746398              167.2426787916              153.6592199641   6469174      482.4622733955     14.6230831436     14.5903027004     14.5365525357
+    4  Sixth Form College  East Midlands          1003088           1375        1115427           1513        1248720           1731              729.5185454545              737.2286847323              721.3864818024   3367235     2188.1337119893     13.8185937999     13.9247478492     14.0376295846
+    5  Sixth Form College  Greater London         1027776           1514        1020719           1485         856334           1299              678.8480845443              687.3528619529              659.2255581216   2904829     2025.4265046187     13.8429078024     13.8360178389     13.6604157659
+

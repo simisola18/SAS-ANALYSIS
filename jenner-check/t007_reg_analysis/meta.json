@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_reg_analysis",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 216-232 (PROC FCMP log-transform of the year totals) and lines 439-445 (PROC REG regressing all three GLH-per-learner years on the log-transformed year predictors, with p/r/cli/clm output options and an OUTPUT statement), unmodified. Total_data rebuilt inline from 8 real FE-college rows (IMAT5168-FE.csv, East Midlands + East of England) so the model has enough observations to fit and report F-tests, parameter estimates, and per-observation prediction/residual/CLI/CLM statistics."
+}

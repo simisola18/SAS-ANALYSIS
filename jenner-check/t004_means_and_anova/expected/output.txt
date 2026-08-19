@@ -1,0 +1,123 @@
+                                                  The MEANS Procedure
+
+                                     Analysis Variable : GLHHours_per_Learner_year1
+
+                                     N
+        region                     Obs              N           Mean         Median        Std Dev        Minimum        Maximum  Lower Quartile  Upper Quartile
+        --------------------------------------------------------------------------------------------------------------------------------------------------------
+        East Midlands                4              4        116.572        120.584         34.671         71.781        153.340          90.988         142.157
+        East of England              4              4        161.771        168.482         31.303        118.112        192.007         141.387         182.155
+        Greater London               4              4        193.912        188.529         25.407        172.619        225.971         173.526         214.298
+        --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                     Analysis Variable : GLHHours_per_Learner_year2
+
+                                     N
+        region                     Obs              N           Mean         Median        Std Dev        Minimum        Maximum  Lower Quartile  Upper Quartile
+        --------------------------------------------------------------------------------------------------------------------------------------------------------
+        East Midlands                4              4        171.292        169.185         56.983        103.908        242.889         133.684         208.900
+        East of England              4              4        207.453        197.556         33.910        180.529        254.171         182.463         232.443
+        Greater London               4              4        210.638        203.932         20.764        193.923        240.766         197.499         223.778
+        --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                     Analysis Variable : GLHHours_per_Learner_year3
+
+                                     N
+        region                     Obs              N           Mean         Median        Std Dev        Minimum        Maximum  Lower Quartile  Upper Quartile
+        --------------------------------------------------------------------------------------------------------------------------------------------------------
+        East Midlands                4              4        169.022        168.732         52.982        104.446        234.180         135.767         202.278
+        East of England              4              4        213.668        208.221         49.507        163.562        274.669         174.371         252.965
+        Greater London               4              4        207.992        202.466         23.975        185.737        241.299         191.393         224.591
+        --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable                          N   N Miss     Minimum   Lower Quartile      Median   Upper Quartile     Maximum           Mean     Std Dev
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+ totalGLHYear1                    12        0     1008615          1416594     2321542          2844609     3907484        2212183      929703
+ learnersYear1                    12        0        5171             9403       15164            19108       36433          15526        8750
+ totalGLHYear2                    12        0      958223          1437722     2524522          3043212     3716922        2306880      906626
+ learnersYear2                    12        0        3770             6984       13242            15376       30146          12802        7225
+ totalGLHYear3                    12        0      789400          1237256     2301924          2705042     3217344        2082199      853752
+ learnersYear3                    12        0        2874             6147       11623            14826       28989          11708        7068
+ GLHHours_per_Learner_year1       12        0          72              125         168              183         226            157          43
+ GLHHours_per_Learner_year2       12        0         104              178         197              226         254            196          41
+ GLHHours_per_Learner_year3       12        0         104              169         191              233         275            197          45
+ TotalGlh                         12        0     2756238          4091571     7170907          8665986    10841750        6601263     2624781
+ TotalGLHperLearner               12        0         280              478         595              622         721            551         118
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                      The ANOVA Procedure                       
+                    Class Level Information                     
+
+Class       Levels  Values                                      
+--------  --------  --------------------------------------------
+region           3  East Midlands East of England Greater London
+
+Number of Observations Read        12
+Number of Observations Used        12
+
+Dependent Variable: GLHHours_per_Learner_year1
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+region                   2      12076.5531       6038.2766       6.41     0.0186
+Error                    9       8482.3891        942.4877          .          .
+Corrected Total         11      20558.9422                          .          .
+
+R-Square: 0.5874  Root MSE: 30.7000  Mean: 157.4184
+
+
+Dependent Variable: GLHHours_per_Learner_year2
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+region                   2       3821.2143       1910.6071       1.19     0.3487
+Error                    9      14484.1979       1609.3553          .          .
+Corrected Total         11      18305.4122                          .          .
+
+R-Square: 0.2087  Root MSE: 40.1168  Mean: 196.4611
+
+
+Dependent Variable: GLHHours_per_Learner_year3
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+region                   2       4725.4678       2362.7339       1.22     0.3410
+Error                    9      17498.3856       1944.2651          .          .
+Corrected Total         11      22223.8534                          .          .
+
+R-Square: 0.2126  Root MSE: 44.0938  Mean: 196.8943
+
+
+T tests (LSD) Fisher's Least Significant Difference for GLHHours_per_Learner_year1
+
+Alpha                            0.05
+Error Degrees of Freedom         9
+Error Mean Square                942.487673
+
+Level of          -----------region----------
+region                N         Mean      Std Dev
+
+East Midlands         4     116.5723      34.6711
+East of England       4     161.7710      31.3028
+Greater London        4     193.9120      25.4069
+
+Comparisons significant at the 0.05 level are indicated by ***.
+
+Comparison             Difference      Std Err  Significant
+------------------------------------------------------------
+East Midlands - East of England     -45.1987      21.7082             
+East Midlands - Greater London     -77.3398      21.7082          ***
+East of England - Greater London     -32.1411      21.7082             
+
+Means with the same letter are not significantly different.
+
+   Lines Group region                   Mean
+----------------------------------------------
+             A Greater London       193.9120
+            AB East of England      161.7710
+             B East Midlands        116.5723
+
+

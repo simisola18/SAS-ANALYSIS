@@ -1,0 +1,22 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA Total_data_all
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote Total_data_all (6 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: ODS Graphics is ON (width=640px, height=480px, format=SVG).
+NOTE: PROC TTEST data=Total_data_all
+
+NOTE: ODS plot written: ttest_boxplot.spec.json
+NOTE: ODS plot written: ttest_summarypanel.spec.json
+NOTE: ODS plot written: ttest_qqplot.spec.json
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
+NOTE: ODS Graphics is OFF.
+NOTE: PROC SGPLOT data=Total_data_all
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg

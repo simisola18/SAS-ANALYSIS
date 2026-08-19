@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_transpose_and_fcmp",
+  "source_file": "P2686827-CODE.sas",
+  "source_blob_sha": "0d6ceec0a75d6d4ce3b479119350534689f534cc",
+  "source_commit": "27a221a9feffffa5c3be7ff568b8017248457fdf",
+  "notes": "Lines 196-235 of the source: PROC TRANSPOSE re-shapes the three per-year GLH-per-learner columns into a Year category column (BY TotalGLHperLearner institution_type NOTSORTED), then a custom glhyeartrfm() function defined via PROC FCMP (options cmplib=work.project) log-transforms totalGLHYear1-3. Both unmodified from source. Total_data_all is rebuilt inline from 5 real sample rows (3 FE, 2 Sixth Form) so the bundle doesn't depend on the earlier import/merge stages of the original pipeline."
+}

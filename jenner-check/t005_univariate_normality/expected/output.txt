@@ -1,0 +1,218 @@
+                        region=East Midlands
+
+                                                The UNIVARIATE Procedure
+                                         Variable:  GLHHours_per_Learner_year1
+
+                                                        Moments
+
+N                                  4    Sum Weights                        4
+Mean                      116.572256    Sum Observations          466.289025
+Std Deviation              34.671121    Variance                 1202.086638
+Skewness                   -0.598743    Kurtosis                    0.104359
+Uncorrected SS          57962.623557    Corrected SS             3606.259913
+Coeff Variation            29.742172    Std Error Mean             17.335561
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      116.572256  Std Deviation    34.671121
+Median    120.584005  Variance       1202.086638
+Mode               .  Range            81.559958
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       71.780529
+1%           71.780529
+5%           71.780529
+10%          71.780529
+25% Q1       90.987678
+50% Median  120.584005
+75% Q3      142.156835
+90%         153.340487
+95%         153.340487
+99%         153.340487
+100% Max    153.340487
+
+           Extreme Observations           
+
+       Lowest               Highest
+     Value       Obs       Value       Obs
+----------  --------  ----------  --------
+ 71.780529         4   71.780529         4
+110.194827         2  110.194827         2
+130.973183         1  130.973183         1
+153.340487         3  153.340487         3
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.982007381  0.913691855
+Kolmogorov-Smirnov  0.177029997  0.997185855
+Anderson-Darling    0.180968111      0.15
+Cramer-von Mises    0.025938034  0.996796247
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  6.724458    Pr > |t|    0.0067
+                                    Sign           M         2    Pr >= |M|   0.1250
+                                    Signed Rank    S         5    Pr >= |S|   0.1250
+
+
+                        region=East of England
+
+                                                The UNIVARIATE Procedure
+                                         Variable:  GLHHours_per_Learner_year1
+
+                                                        Moments
+
+N                                  4    Sum Weights                        4
+Mean                      161.770953    Sum Observations          647.083814
+Std Deviation              31.302820    Variance                  979.866521
+Skewness                   -1.181996    Kurtosis                    2.058200
+Uncorrected SS         107618.965079    Corrected SS             2939.599563
+Coeff Variation            19.350087    Std Error Mean             15.651410
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      161.770953  Std Deviation   31.302820
+Median    168.482139  Variance       979.866521
+Mode               .  Range           73.895314
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      118.112110
+1%          118.112110
+5%          118.112110
+10%         118.112110
+25% Q1      141.387256
+50% Median  168.482139
+75% Q3      182.154651
+90%         192.007424
+95%         192.007424
+99%         192.007424
+100% Max    192.007424
+
+           Extreme Observations           
+
+       Lowest               Highest
+     Value       Obs       Value       Obs
+----------  --------  ----------  --------
+118.112110         1  118.112110         1
+164.662402         2  164.662402         2
+172.301877         4  172.301877         4
+192.007424         3  192.007424         3
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.921847256  0.547351773
+Kolmogorov-Smirnov  0.286798057  0.81052024
+Anderson-Darling    0.294641169      0.15
+Cramer-von Mises    0.050712345  0.89878955
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  10.33587    Pr > |t|    0.0019
+                                    Sign           M         2    Pr >= |M|   0.1250
+                                    Signed Rank    S         5    Pr >= |S|   0.1250
+
+
+                        region=Greater London
+
+                                                The UNIVARIATE Procedure
+                                         Variable:  GLHHours_per_Learner_year1
+
+                                                        Moments
+
+N                                  4    Sum Weights                        4
+Mean                      193.912045    Sum Observations          775.648178
+Std Deviation              25.406886    Variance                  645.509860
+Skewness                    0.673329    Kurtosis                   -2.207721
+Uncorrected SS         152344.053622    Corrected SS             1936.529579
+Coeff Variation            13.102273    Std Error Mean             12.703443
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean      193.912045  Std Deviation   25.406886
+Median    188.529337  Variance       645.509860
+Mode               .  Range           53.351741
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      172.618882
+1%          172.618882
+5%          172.618882
+10%         172.618882
+25% Q1      173.525782
+50% Median  188.529337
+75% Q3      214.298307
+90%         225.970622
+95%         225.970622
+99%         225.970622
+100% Max    225.970622
+
+           Extreme Observations           
+
+       Lowest               Highest
+     Value       Obs       Value       Obs
+----------  --------  ----------  --------
+172.618882         4  172.618882         4
+174.432683         1  174.432683         1
+202.625991         3  202.625991         3
+225.970622         2  225.970622         2
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.883201162  0.35248845
+Kolmogorov-Smirnov  0.278368898  0.834548674
+Anderson-Darling    0.318774169      0.15
+Cramer-von Mises    0.050676344  0.898999392
+
+
+                                               Tests for Location: Mu0=0
+ 
+                                    Test           -Statistic-    -----p Value------
+
+                                    Student's t    t  15.26453    Pr > |t|    0.0006
+                                    Sign           M         2    Pr >= |M|   0.1250
+                                    Signed Rank    S         5    Pr >= |S|   0.1250
+
